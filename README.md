@@ -3,7 +3,14 @@ python little scripts.
 
 
 Update DVWA_getshell scripts
-更新了批量获取dvwa靶机upload-webshell的脚本，脚本登录dvwa站点，然后设置security为low，然后上传指定webshells文件然后写入新的list。
+更新了批量获取dvwa靶机upload-webshell的脚本，
+1.脚本登录dvwa站点。
+2.设置security为low，
+3.上传指定webshells文件
+4.写入新的成功的list。
+
+利用条件：
+fofa: app="DVWA"
 1.dvwa默认帐号密码  admin：password
 2.网站存活
 
